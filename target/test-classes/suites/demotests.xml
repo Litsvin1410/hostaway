@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo test suite">
+
+    <test name="Filtration test">
+        <classes>
+            <class name="org.example.scripts.PropertyFiltrationTest"/>
+        </classes>
+    </test>
+
+    <test name="All listings test">
+        <classes>
+            <class name="org.example.scripts.AllListingsTest"/>
+        </classes>
+    </test>
+
+</suite>
