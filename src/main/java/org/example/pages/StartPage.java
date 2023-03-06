@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class StartPage extends BasePage implements IBasePageWithUrl{
+public class StartPage extends BasePage implements IBasePageWithUrl {
 
 
     private By checkInDateButton = By.xpath("//div[text()='Check-in']/ancestor::div[@class='sc-fuISkM cpwVzr']");
